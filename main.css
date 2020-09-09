@@ -1,23 +1,53 @@
 /* cia bus stilius */
 
 body {
-    background-color: #F8F8F8
+    /* background-color: #F8F8F8 */
 }
 
-header {}
+header {
+    display: inline-block background-color: yellow;
+    width: 1000px;
+    margin-left: calc( (100% - 1000px) / 2);
+}
 
-header>img {}
+header>img {
+    display: inline-block;
+    float: left;
+}
 
-nav {}
+nav {
+    display: inline-block;
+    float: left;
+}
 
-a {}
+a {
+    display: inline-block;
+}
 
 a:last-of-type main {}
 
-div {}
+main {
+    display: inline-block;
+    background-color: teal;
+    width: 1000px;
+    margin-left: calc( (100% - 1000px) / 2);
+}
 
-h1 {}
+div {
+    display: inline-block;
+    width: 40%;
+    float: left: margin
+}
 
-p {}
+h1 {
+    display: inline-block;
+}
 
-img {}
+p {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    width:
+}
