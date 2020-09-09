@@ -1,11 +1,15 @@
 /* cia bus stilius */
 
 body {
-    /* background-color: #F8F8F8 */
+    display: inline-block;
+    /* background-color: #F8F8F8; */
+    width: 1000px;
+    margin-left: calc( (100% - 1000px) / 2);
 }
 
 header {
-    display: inline-block background-color: yellow;
+    display: inline-block;
+    background-color: yellow;
     width: 1000px;
     margin-left: calc( (100% - 1000px) / 2);
 }
@@ -13,18 +17,27 @@ header {
 header>img {
     display: inline-block;
     float: left;
+    margin: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 nav {
     display: inline-block;
-    float: left;
+    float: right;
+    margin: 60px 30px;
 }
 
 a {
     display: inline-block;
+    margin: 7px;
+    color: #D2D2D2;
+    text-decoration: unset;
 }
 
-a:last-of-type main {}
+a :nth-last-of-type(1) {
+    color: red;
+}
 
 main {
     display: inline-block;
@@ -35,19 +48,30 @@ main {
 
 div {
     display: inline-block;
-    width: 40%;
-    float: left: margin
+    width: 35%;
+    float: left;
+    margin: 0px 40px 40px 40px;
 }
 
 h1 {
     display: inline-block;
+    margin-bottom: 0px;
+    color: #9E9E9E;
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
     display: inline-block;
+    margin-top: 0px;
+    color: #B6B6B6;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-img {
+main>img {
     display: inline-block;
-    width:
+    width: 45%;
+    float: right;
+    margin-right: 30px;
 }
