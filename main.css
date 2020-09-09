@@ -9,7 +9,6 @@ body {
 
 header {
     display: inline-block;
-    background-color: yellow;
     width: 1000px;
     margin-left: calc( (100% - 1000px) / 2);
 }
@@ -35,13 +34,14 @@ a {
     text-decoration: unset;
 }
 
-a :nth-last-of-type(1) {
-    color: red;
+.last {
+    border: 3px solid #D2D2D2;
+    padding: 0em 1em;
+    border-radius: 25px;
 }
 
 main {
     display: inline-block;
-    background-color: teal;
     width: 1000px;
     margin-left: calc( (100% - 1000px) / 2);
 }
